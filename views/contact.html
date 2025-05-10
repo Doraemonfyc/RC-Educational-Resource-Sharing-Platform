@@ -1,0 +1,62 @@
+<!-- views/contact.html -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我们 - 我的网站</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/views/index.html" class="logo">我的网站</a>
+        <ul class="nav-links">
+          <li><a href="/views/index.html">首页</a></li>
+          <li><a href="/views/about.html">关于我们</a></li>
+          <li><a href="/views/services.html">服务项目</a></li>
+          <li><a href="/views/contact.html" class="active">联系我们</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="contact-section">
+        <div class="contact-info">
+          <h2>联系我们</h2>
+          <div class="info-item">
+            <h4>地址</h4>
+            <p>上海市浦东新区张江高科技园区</p>
+          </div>
+          <div class="info-item">
+            <h4>电话</h4>
+            <p>+86 21 1234-5678</p>
+          </div>
+          <div class="info-item">
+            <h4>邮箱</h4>
+            <p>contact@mywebsite.com</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="姓名" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="邮箱" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="留言内容"></textarea>
+          </div>
+          <button type="submit">发送消息</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 我的网站. 保留所有权利</p>
+      </div>
+    </footer>
+  </body>
+</html>
